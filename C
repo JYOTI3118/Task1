@@ -5,7 +5,7 @@ void main()
 char name[100];
 int age;
 int no;
-Plprintf("enter your name, age, phone number");
+printf("enter your name, age, phone number");
 scanf("%s%d%d",&name,&age,&no);
 printf("%s%d%d",name,age,no);
 return(0);
