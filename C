@@ -1,0 +1,12 @@
+#include<studio.h>
+#include<conio.h>
+void main()
+{
+Char name[100];
+Int age;
+int no;
+Printf("enter your name, age, phone number");
+Scanf("%s%d%d",&name,&age,&no);
+Printf("%s%d%d",name,age,no);
+Return(0);
+}
