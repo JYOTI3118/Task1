@@ -1,16 +1,15 @@
 
-
 #include<stdio.h>
 #include<conio.h>
-void main()
+int main()
 {
-	char name[100];
-int age;
-int no;
+clrscr();
+char name[100];
+int age, no;
 printf("enter your name, age, phone number");
-scanf("%s%d%d" ,&name , &age , &no);
-printf("%s%d%d", name , age , no);
-
-	getch();
+scanf("%s %d %d" ,&name , &age , &no);
+printf("%s %d %d", name , age , no);
+getch();
+return 0;
 }
 
